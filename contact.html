@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — I-SUCCESS Niamey</title>
+<meta name="description" content="Contactez I-SUCCESS à Niamey : formulaire, WhatsApp, téléphone, agence. Nous vous répondons sous 24h.">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%231A56DB'/><text x='50' y='66' text-anchor='middle' font-family='Georgia' font-weight='800' font-size='52' fill='%23fff'>iS</text></svg>">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header class="navbar">
+  <div class="nav-inner">
+    <a href="index.html" class="logo"><span class="logo-mark"></span>I-<span class="gold">SUCCESS</span></a>
+    <nav><ul class="nav-links">
+      <li><a href="index.html">Accueil</a></li>
+      <li class="has-dropdown"><a href="index.html#destinations">Destinations &#9662;</a>
+        <ul class="dropdown">
+          <li><a href="destinations/turquie.html">Turquie</a></li><li><a href="destinations/france.html">France</a></li>
+          <li><a href="destinations/maroc.html">Maroc</a></li><li><a href="destinations/canada.html">Canada</a></li>
+          <li><a href="destinations/tunisie.html">Tunisie</a></li><li><a href="destinations/senegal.html">Sénégal</a></li>
+        </ul>
+      </li>
+      <li><a href="offres.html">Nos offres</a></li>
+      <li><a href="about.html">À propos</a></li>
+      <li><a href="temoignages.html">Témoignages</a></li>
+      <li><a href="blog.html">Blog</a></li>
+    </ul></nav>
+    <a href="contact.html" class="btn btn-primary nav-cta">Contactez-nous</a>
+    <button class="burger" aria-label="Menu"><span></span><span></span><span></span></button>
+  </div>
+  <div class="mobile-menu">
+    <ul>
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="#" class="mobile-has-sub">Destinations</a>
+        <ul class="mobile-submenu">
+          <li><a href="destinations/turquie.html">Turquie</a></li><li><a href="destinations/france.html">France</a></li>
+          <li><a href="destinations/maroc.html">Maroc</a></li><li><a href="destinations/canada.html">Canada</a></li>
+          <li><a href="destinations/tunisie.html">Tunisie</a></li><li><a href="destinations/senegal.html">Sénégal</a></li>
+        </ul>
+      </li>
+      <li><a href="offres.html">Nos offres</a></li><li><a href="about.html">À propos</a></li>
+      <li><a href="temoignages.html">Témoignages</a></li><li><a href="blog.html">Blog</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <a href="contact.html" class="btn btn-primary">Contactez-nous</a>
+  </div>
+</header>
+
+<section class="page-header">
+  <div class="container">
+    <div class="breadcrumb"><a href="index.html">Accueil</a> &rsaquo; Contact</div>
+    <h1>Parlons de votre projet</h1>
+    <p>Remplissez le formulaire, appelez-nous ou passez directement à l'agence à Niamey. Nous répondons sous 24h.</p>
+  </div>
+</section>
+
+<section style="background:#fff;">
+  <div class="container">
+    <div class="contact-grid">
+
+      <form id="contact-form" class="contact-form reveal" novalidate>
+        <h2 style="margin-bottom:1.5rem; font-size:1.5rem;">Envoyez-nous un message</h2>
+
+        <div class="form-row cols-2">
+          <div class="form-group">
+            <label for="prenom">Prénom *</label>
+            <input type="text" id="prenom" name="prenom" required placeholder="Votre prénom">
+          </div>
+          <div class="form-group">
+            <label for="nom">Nom *</label>
+            <input type="text" id="nom" name="nom" required placeholder="Votre nom">
+          </div>
+        </div>
+
+        <div class="form-row cols-2">
+          <div class="form-group">
+            <label for="pays">Pays de résidence *</label>
+            <select id="pays" name="pays" required>
+              <option value="">Choisir...</option>
+              <option>Niger</option><option>Sénégal</option><option>Mali</option>
+              <option>Côte d'Ivoire</option><option>Burkina Faso</option>
+              <option>Guinée</option><option>Togo</option><option>Bénin</option>
+              <option>Autre</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="tel">Téléphone / WhatsApp *</label>
+            <input type="tel" id="tel" name="tel" required placeholder="+227 ...">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email *</label>
+          <input type="email" id="email" name="email" required placeholder="votre@email.com">
+        </div>
+
+        <div class="form-row cols-2">
+          <div class="form-group">
+            <label for="niveau">Niveau d'études actuel *</label>
+            <select id="niveau" name="niveau" required>
+              <option value="">Choisir...</option>
+              <option>Bac</option>
+              <option>Licence (L1/L2/L3)</option>
+              <option>Master</option>
+              <option>Doctorat</option>
+              <option>Autre</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="destination">Destination souhaitée</label>
+            <select id="destination" name="destination">
+              <option value="">Je ne sais pas encore</option>
+              <option>Turquie</option><option>France</option><option>Maroc</option>
+              <option>Canada</option><option>Tunisie</option><option>Sénégal</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Votre message *</label>
+          <textarea id="message" name="message" required placeholder="Parlez-nous de votre projet..."></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary" style="width:100%;">Envoyer mon message &rarr;</button>
+        <p class="form-note">En cliquant sur "Envoyer", votre message sera transmis via WhatsApp à notre équipe. Aucune donnée n'est stockée sur ce site.</p>
+        <div class="form-success" style="display:none; margin-top:1rem; padding:1rem; background:#DCFCE7; color:#166534; border-radius:10px;">
+          &#10003; Merci ! Nous vous répondrons très prochainement sur WhatsApp.
+        </div>
+      </form>
+
+      <div class="contact-info reveal">
+        <h3>Nos coordonnées</h3>
+        <div class="contact-line"><span class="ci">&#128205;</span>
+          <div><strong style="color:#fff;">Adresse</strong><br>Yantala, face camping touristique<br>Niamey, Niger</div>
+        </div>
+        <div class="contact-line"><span class="ci">&#128222;</span>
+          <div><strong style="color:#fff;">Téléphone / WhatsApp</strong><br>
+            <a href="tel:+22797596060" style="color:var(--gold);">+227 97 59 60 60</a>
+          </div>
+        </div>
+        <div class="contact-line"><span class="ci">&#9993;&#65039;</span>
+          <div><strong style="color:#fff;">Email</strong><br>
+            <a href="mailto:contact@i-success.ne" style="color:var(--gold);">contact@i-success.ne</a>
+          </div>
+        </div>
+        <div class="contact-line"><span class="ci">&#128340;</span>
+          <div><strong style="color:#fff;">Horaires</strong><br>Lundi &mdash; Vendredi<br>14h00 &mdash; 18h30</div>
+        </div>
+        <div class="contact-line"><span class="ci">f</span>
+          <div><strong style="color:#fff;">Facebook</strong><br>
+            <a href="https://facebook.com/I-Success" target="_blank" style="color:var(--gold);">I-Success</a>
+          </div>
+        </div>
+
+        <a href="https://wa.me/22797596060?text=Bonjour%20I-SUCCESS" target="_blank" class="btn btn-whatsapp" style="width:100%; margin-top:1.5rem;">
+          Discuter maintenant sur WhatsApp
+        </a>
+      </div>
+
+    </div>
+
+    <div class="map-wrap reveal" style="margin-top:3rem;">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31317.056!2d2.084!3d13.525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTPCsDMxJzMwLjAiTiAywrAwNScwMC4wIkU!5e0!3m2!1sfr!2sne!4v1700000000000"
+        loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-about">
+        <a href="index.html" class="logo"><span class="logo-mark"></span>I-<span class="gold">SUCCESS</span></a>
+        <p>Votre réussite en études, notre priorité.</p>
+        <div class="socials"><a href="https://facebook.com/I-Success" target="_blank">f</a><a href="https://wa.me/22797596060" target="_blank">&#9742;</a><a href="mailto:contact@i-success.ne">@</a></div>
+      </div>
+      <div><h4>Navigation</h4><a href="index.html">Accueil</a><a href="about.html">À propos</a><a href="offres.html">Nos offres</a><a href="temoignages.html">Témoignages</a><a href="blog.html">Blog</a><a href="contact.html">Contact</a></div>
+      <div><h4>Destinations</h4><a href="destinations/turquie.html">Turquie</a><a href="destinations/france.html">France</a><a href="destinations/maroc.html">Maroc</a><a href="destinations/canada.html">Canada</a><a href="destinations/tunisie.html">Tunisie</a><a href="destinations/senegal.html">Sénégal</a></div>
+      <div><h4>Contact</h4>
+        <div class="contact-line"><span class="ci">&#128205;</span> Yantala, face camping touristique, Niamey</div>
+        <div class="contact-line"><span class="ci">&#128222;</span> +227 97 59 60 60</div>
+        <div class="contact-line"><span class="ci">&#128340;</span> Lun &mdash; Ven : 14h &mdash; 18h30</div>
+      </div>
+    </div>
+    <div class="footer-bottom"><div>&copy; 2026 I-SUCCESS. Tous droits réservés.</div><div>Conçu avec passion à Niamey &middot; Niger.</div></div>
+  </div>
+</footer>
+
+<a href="https://wa.me/22797596060" class="wa-fab" target="_blank" aria-label="WhatsApp">&#128172;</a>
+<script src="js/main.js"></script>
+</body>
+</html>

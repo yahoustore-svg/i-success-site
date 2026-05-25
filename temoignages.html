@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Témoignages — I-SUCCESS</title>
+<meta name="description" content="Découvrez les témoignages d'anciens étudiants accompagnés par I-SUCCESS partout en Afrique de l'Ouest.">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%231A56DB'/><text x='50' y='66' text-anchor='middle' font-family='Georgia' font-weight='800' font-size='52' fill='%23fff'>iS</text></svg>">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+<style>
+  .testi-grid { display: grid; gap: 1.5rem; grid-template-columns: 1fr; }
+  @media (min-width: 640px) { .testi-grid { grid-template-columns: repeat(2, 1fr); } }
+  @media (min-width: 992px) { .testi-grid { grid-template-columns: repeat(3, 1fr); } }
+  .testi-item {
+    background: #fff;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 1.75rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    transition: all .25s var(--ease);
+  }
+  .testi-item:hover { transform: translateY(-6px); box-shadow: var(--shadow); }
+  .testi-item .head { display: flex; align-items: center; gap: .75rem; }
+  .testi-item img { width: 56px; height: 56px; border-radius: 50%; object-fit: cover; border: 3px solid var(--gold-light); }
+  .testi-item .name { font-weight: 700; color: var(--ink); }
+  .testi-item .route { font-size: .85rem; color: var(--muted); display: flex; align-items: center; gap: .3rem; margin-top: 2px; }
+  .testi-item .route img { width: 18px; height: 13px; border-radius: 2px; border: 0; }
+  .testi-item blockquote { font-style: italic; color: var(--text); flex: 1; line-height: 1.6; }
+  .testi-item .stars { color: var(--gold); }
+</style>
+</head>
+<body>
+
+<header class="navbar">
+  <div class="nav-inner">
+    <a href="index.html" class="logo"><span class="logo-mark"></span>I-<span class="gold">SUCCESS</span></a>
+    <nav><ul class="nav-links">
+      <li><a href="index.html">Accueil</a></li>
+      <li class="has-dropdown"><a href="index.html#destinations">Destinations &#9662;</a>
+        <ul class="dropdown">
+          <li><a href="destinations/turquie.html">Turquie</a></li><li><a href="destinations/france.html">France</a></li>
+          <li><a href="destinations/maroc.html">Maroc</a></li><li><a href="destinations/canada.html">Canada</a></li>
+          <li><a href="destinations/tunisie.html">Tunisie</a></li><li><a href="destinations/senegal.html">Sénégal</a></li>
+        </ul>
+      </li>
+      <li><a href="offres.html">Nos offres</a></li>
+      <li><a href="about.html">À propos</a></li>
+      <li><a href="temoignages.html" class="active">Témoignages</a></li><li><a href="blog.html">Blog</a></li>
+    </ul></nav>
+    <a href="contact.html" class="btn btn-primary nav-cta">Contactez-nous</a>
+    <button class="burger" aria-label="Menu"><span></span><span></span><span></span></button>
+  </div>
+  <div class="mobile-menu">
+    <ul>
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="#" class="mobile-has-sub">Destinations</a>
+        <ul class="mobile-submenu">
+          <li><a href="destinations/turquie.html">Turquie</a></li><li><a href="destinations/france.html">France</a></li>
+          <li><a href="destinations/maroc.html">Maroc</a></li><li><a href="destinations/canada.html">Canada</a></li>
+          <li><a href="destinations/tunisie.html">Tunisie</a></li><li><a href="destinations/senegal.html">Sénégal</a></li>
+        </ul>
+      </li>
+      <li><a href="offres.html">Nos offres</a></li><li><a href="about.html">À propos</a></li>
+      <li><a href="temoignages.html">Témoignages</a></li><li><a href="blog.html">Blog</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <a href="contact.html" class="btn btn-primary">Contactez-nous</a>
+  </div>
+</header>
+
+<section class="page-header">
+  <div class="container">
+    <div class="breadcrumb"><a href="index.html">Accueil</a> &rsaquo; Témoignages</div>
+    <h1>Des parcours, des réussites</h1>
+    <p>Ils ont fait confiance à I-SUCCESS pour leurs études à l'étranger. Voici leurs histoires.</p>
+  </div>
+</section>
+
+<section style="background:#fff;">
+  <div class="container">
+    <div class="testi-grid reveal">
+      <div class="testi-item">
+        <div class="head">
+          <img src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?w=200&q=80" alt="Aïssatou D.">
+          <div>
+            <div class="name">Aïssatou D.</div>
+            <div class="route"><img src="https://flagcdn.com/w40/ne.png" alt=""> Niger &rarr; <img src="https://flagcdn.com/w40/tr.png" alt=""> Turquie</div>
+          </div>
+        </div>
+        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <blockquote>« Grâce à I-SUCCESS, j'ai intégré Istanbul Aydin University. L'équipe a tout pris en charge, du dossier au visa. Aujourd'hui je vis mon rêve. »</blockquote>
+        <div style="font-size:.85rem;color:var(--muted);">Licence Architecture &middot; Istanbul Aydin University</div>
+      </div>
+
+      <div class="testi-item">
+        <div class="head">
+          <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200&q=80" alt="Moussa K.">
+          <div>
+            <div class="name">Moussa K.</div>
+            <div class="route"><img src="https://flagcdn.com/w40/ml.png" alt=""> Mali &rarr; <img src="https://flagcdn.com/w40/ma.png" alt=""> Maroc</div>
+          </div>
+        </div>
+        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <blockquote>« Accompagnement humain et pro. Mes parents étaient rassurés à chaque étape. Je suis aujourd'hui en Master à Rabat. »</blockquote>
+        <div style="font-size:.85rem;color:var(--muted);">Master Finance &middot; Université Mohammed V</div>
+      </div>
+
+      <div class="testi-item">
+        <div class="head">
+          <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&q=80" alt="Fatou N.">
+          <div>
+            <div class="name">Fatou N.</div>
+            <div class="route"><img src="https://flagcdn.com/w40/sn.png" alt=""> Sénégal &rarr; <img src="https://flagcdn.com/w40/ca.png" alt=""> Canada</div>
+          </div>
+        </div>
+        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <blockquote>« Le rêve canadien est devenu réalité. I-SUCCESS m'a guidée du choix du programme jusqu'à mon installation à Montréal. »</blockquote>
+        <div style="font-size:.85rem;color:var(--muted);">Bac Psychologie &middot; UQAM</div>
+      </div>
+
+      <div class="testi-item">
+        <div class="head">
+          <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=200&q=80" alt="Ibrahim T.">
+          <div>
+            <div class="name">Ibrahim T.</div>
+            <div class="route"><img src="https://flagcdn.com/w40/bf.png" alt=""> Burkina &rarr; <img src="https://flagcdn.com/w40/fr.png" alt=""> France</div>
+          </div>
+        </div>
+        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <blockquote>« Mon dossier visa France accepté du 1<sup>er</sup> coup. Sérieux, disponibles, à l'écoute. Je recommande sans hésiter. »</blockquote>
+        <div style="font-size:.85rem;color:var(--muted);">Licence Droit &middot; Université de Lyon</div>
+      </div>
+
+      <div class="testi-item">
+        <div class="head">
+          <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=200&q=80" alt="Aminata B.">
+          <div>
+            <div class="name">Aminata B.</div>
+            <div class="route"><img src="https://flagcdn.com/w40/ci.png" alt=""> Côte d'Iv. &rarr; <img src="https://flagcdn.com/w40/tn.png" alt=""> Tunisie</div>
+          </div>
+        </div>
+        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <blockquote>« Je cherchais à faire médecine, I-SUCCESS m'a présenté les meilleures facs tunisiennes. Admise à Tunis El Manar ! »</blockquote>
+        <div style="font-size:.85rem;color:var(--muted);">Médecine &middot; Université de Tunis El Manar</div>
+      </div>
+
+      <div class="testi-item">
+        <div class="head">
+          <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=200&q=80" alt="Omar D.">
+          <div>
+            <div class="name">Omar D.</div>
+            <div class="route"><img src="https://flagcdn.com/w40/gn.png" alt=""> Guinée &rarr; <img src="https://flagcdn.com/w40/tr.png" alt=""> Turquie</div>
+          </div>
+        </div>
+        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <blockquote>« Grâce à la bourse Türkiye obtenue avec I-SUCCESS, mes études sont prises en charge à 100%. Merci à toute l'équipe ! »</blockquote>
+        <div style="font-size:.85rem;color:var(--muted);">Ingénierie &middot; Bilkent University</div>
+      </div>
+
+      <div class="testi-item">
+        <div class="head">
+          <img src="https://images.unsplash.com/photo-1557862921-37829c790f19?w=200&q=80" alt="Mariam O.">
+          <div>
+            <div class="name">Mariam O.</div>
+            <div class="route"><img src="https://flagcdn.com/w40/tg.png" alt=""> Togo &rarr; <img src="https://flagcdn.com/w40/sn.png" alt=""> Sénégal</div>
+          </div>
+        </div>
+        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <blockquote>« Rester en Afrique sans compromis sur la qualité. BEM Dakar, c'était le bon choix et I-SUCCESS l'a rendu possible. »</blockquote>
+        <div style="font-size:.85rem;color:var(--muted);">Business School &middot; BEM Dakar</div>
+      </div>
+
+      <div class="testi-item">
+        <div class="head">
+          <img src="https://images.unsplash.com/photo-1590086783191-a0694c7d1e6e?w=200&q=80" alt="Abdoul R.">
+          <div>
+            <div class="name">Abdoul R.</div>
+            <div class="route"><img src="https://flagcdn.com/w40/bj.png" alt=""> Bénin &rarr; <img src="https://flagcdn.com/w40/fr.png" alt=""> France</div>
+          </div>
+        </div>
+        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <blockquote>« I-SUCCESS m'a préparé à l'entretien Campus France. Résultat : admis en Master informatique à Bordeaux. Merci ! »</blockquote>
+        <div style="font-size:.85rem;color:var(--muted);">Master Informatique &middot; Université de Bordeaux</div>
+      </div>
+
+      <div class="testi-item">
+        <div class="head">
+          <img src="https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=200&q=80" alt="Souleymane A.">
+          <div>
+            <div class="name">Souleymane A.</div>
+            <div class="route"><img src="https://flagcdn.com/w40/ne.png" alt=""> Niger &rarr; <img src="https://flagcdn.com/w40/ma.png" alt=""> Maroc</div>
+          </div>
+        </div>
+        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <blockquote>« Pack Premium au top ! Ils m'ont accueilli à l'aéroport de Casablanca. Je ne me suis jamais senti seul. »</blockquote>
+        <div style="font-size:.85rem;color:var(--muted);">Licence Management &middot; HEM Casablanca</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- VIDEO TESTIMONIALS -->
+<section style="background:var(--bg);">
+  <div class="container">
+    <div class="section-title reveal">
+      <span class="eyebrow">En vidéo</span>
+      <h2>Ils racontent leur parcours</h2>
+    </div>
+    <div class="info-cards reveal">
+      <div class="video-wrap"><iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Témoignage I-SUCCESS" allowfullscreen></iframe></div>
+      <div class="video-wrap"><iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Témoignage I-SUCCESS" allowfullscreen></iframe></div>
+      <div class="video-wrap"><iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Témoignage I-SUCCESS" allowfullscreen></iframe></div>
+    </div>
+  </div>
+</section>
+
+<section style="background:#fff;">
+  <div class="container">
+    <div class="cta-band reveal">
+      <h2>Vous aussi, partez étudier à l'étranger</h2>
+      <p>Des centaines d'étudiants ouest-africains l'ont fait avec nous. Ce sera peut-être votre tour.</p>
+      <div class="hero-ctas" style="justify-content:center;">
+        <a href="contact.html" class="btn btn-gold">Commencer mon projet</a>
+        <a href="https://wa.me/22797596060" target="_blank" class="btn btn-whatsapp">WhatsApp</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-about">
+        <a href="index.html" class="logo"><span class="logo-mark"></span>I-<span class="gold">SUCCESS</span></a>
+        <p>Votre réussite en études, notre priorité.</p>
+        <div class="socials"><a href="https://facebook.com/I-Success" target="_blank">f</a><a href="https://wa.me/22797596060" target="_blank">&#9742;</a><a href="mailto:contact@i-success.ne">@</a></div>
+      </div>
+      <div><h4>Navigation</h4><a href="index.html">Accueil</a><a href="about.html">À propos</a><a href="offres.html">Nos offres</a><a href="temoignages.html">Témoignages</a><a href="blog.html">Blog</a><a href="contact.html">Contact</a></div>
+      <div><h4>Destinations</h4><a href="destinations/turquie.html">Turquie</a><a href="destinations/france.html">France</a><a href="destinations/maroc.html">Maroc</a><a href="destinations/canada.html">Canada</a><a href="destinations/tunisie.html">Tunisie</a><a href="destinations/senegal.html">Sénégal</a></div>
+      <div><h4>Contact</h4>
+        <div class="contact-line"><span class="ci">&#128205;</span> Yantala, face camping touristique, Niamey</div>
+        <div class="contact-line"><span class="ci">&#128222;</span> +227 97 59 60 60</div>
+        <div class="contact-line"><span class="ci">&#128340;</span> Lun &mdash; Ven : 14h &mdash; 18h30</div>
+      </div>
+    </div>
+    <div class="footer-bottom"><div>&copy; 2026 I-SUCCESS. Tous droits réservés.</div><div>Conçu avec passion à Niamey &middot; Niger.</div></div>
+  </div>
+</footer>
+
+<a href="https://wa.me/22797596060" class="wa-fab" target="_blank" aria-label="WhatsApp">&#128172;</a>
+<script src="js/main.js"></script>
+</body>
+</html>
